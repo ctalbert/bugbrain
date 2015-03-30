@@ -1,0 +1,22 @@
+https://bugzilla.mozilla.org/buglist.cgi?chfield=[Bug%20creation]&chfieldfrom=-7d&resolution=---&chfieldto=Now&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&product=Core
+
+https://bugzilla.mozilla.org/rest/bug?chfield=[Bug%20creation]&chfieldfrom=-7d&resolution=---&chfieldto=Now&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&product=Core
+
+short query:
+https://bugzilla.mozilla.org/buglist.cgi?emailtype1=substring&chfield=[Bug%20creation]&chfieldfrom=-3m&email1=ctalbert%40mozilla.com&emailreporter1=1&resolution=---&resolution=FIXED&chfieldto=Now&query_format=advanced
+
+Rest: 
+https://bugzilla.mozilla.org/rest/bug?include_fields=id,summary,status&chfield=[Bug%20creation]&chfieldfrom=-3m&chfieldto=Now&email1=ctalbert%40mozilla.com&emailreporter1=1&emailtype1=substring&resolution=---&resolution=FIXED
+
+Fx 35 - in fx 35: https://bugzilla.mozilla.org/rest/bug?j_top=OR&f1=cf_tracking_firefox35&list_id=12089932&o1=equals&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=INCOMPLETE&resolution=SUPPORT&resolution=EXPIRED&resolution=MOVED&query_format=advanced&chfield=[Bug%20creation]&chfieldfrom=2014-09-02&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=%2B
+
+Filed during 35 but not tracked: https://bugzilla.mozilla.org/rest/bug?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&chfield=[Bug%20creation]&chfieldfrom=2014-09-02&f1=cf_tracking_firefox35&f2=cf_tracking_firefox36&f3=cf_tracking_firefox37&f4=cf_tracking_firefox38&j_top=OR&list_id=12089961&o1=notequals&o2=notequals&o3=notequals&o4=notequals&product=Core&product=Firefox&product=Firefox%20for%20Android&product=Firefox%20for%20iOS&product=NSPR&product=NSS&product=Toolkit&query_format=advanced&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=INCOMPLETE&resolution=SUPPORT&resolution=EXPIRED&resolution=MOVED&v1=%2B&v2=%2B&v3=%2B&v4=%2B&order=priority%2Cbug_severity&limit=5000
+
+Fx 36 https://bugzilla.mozilla.org/rest/bug?j_top=OR&f1=cf_tracking_firefox36&list_id=12089932&o1=equals&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=INCOMPLETE&resolution=SUPPORT&resolution=EXPIRED&resolution=MOVED&query_format=advanced&chfield=[Bug%20creation]&chfieldfrom=2014-09-02&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=%2B
+
+fx 37 https://bugzilla.mozilla.org/rest/bug?j_top=OR&f1=cf_tracking_firefox37&list_id=12089932&o1=equals&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=INCOMPLETE&resolution=SUPPORT&resolution=EXPIRED&resolution=MOVED&query_format=advanced&chfield=[Bug%20creation]&chfieldfrom=2014-09-02&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=%2B
+
+fx 34 https://bugzilla.mozilla.org/rest/bug?j_top=OR&f1=cf_tracking_firefox34&list_id=12089932&o1=equals&resolution=---&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&resolution=INCOMPLETE&resolution=SUPPORT&resolution=EXPIRED&resolution=MOVED&query_format=advanced&chfield=[Bug%20creation]&chfieldfrom=2014-07-21&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=%2B
+
+recent bugs for test data:
+https://bugzilla.mozilla.org/rest/bug?list_id=12095830&resolution=---&resolution=FIXED&chfieldto=2015-03-31&chfield=[Bug%20creation]&query_format=advanced&chfieldfrom=2015-02-23&product=Core&product=Firefox&product=Toolkit&limit=200
